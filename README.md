@@ -85,7 +85,7 @@ $ git clone https://github.com/ialexanderbrito/ecoleta
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ecoleta
 
-# Vá para a pasta server
+# Vá para a pasta Backend
 $ cd backend
 
 # Instale as dependências
@@ -106,7 +106,7 @@ $ git clone https://github.com/ialexanderbrito/ecoleta
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd ecoleta
 
-# Vá para a pasta da aplicação Front End
+# Vá para a pasta da aplicação FrontEnd
 $ cd frontend
 
 # Instale as dependências
