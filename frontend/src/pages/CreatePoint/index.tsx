@@ -1,6 +1,6 @@
 import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
 import axios from 'axios';
@@ -47,6 +47,8 @@ const CreatePoint = () => {
     0,
     0,
   ]);
+
+  const [sucessMessage, setSucessMessage] = useState(false);
 
   const history = useHistory();
 
@@ -148,9 +150,10 @@ const CreatePoint = () => {
 
     await api.post('points', data);
 
-    alert('Ponto feito');
-
-    history.push('/');
+    setSucessMessage(true);
+    setInterval(() => {
+      history.push('/');
+    }, 2000);
   }
 
   return (
@@ -281,6 +284,13 @@ const CreatePoint = () => {
 
         <button type="submit">Cadastrar ponto de coleta</button>
       </form>
+
+      {sucessMessage ? (
+        <div className={`sucess-message ${sucessMessage ? 'show' : ''}`}>
+          <FiCheckCircle size={64} />
+          <h1>Cadastro concluído!</h1>
+        </div>
+      ) : null}
     </div>
   );
 };
