@@ -1,6 +1,6 @@
 import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle, FiAlertCircle } from 'react-icons/fi';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
 import axios from 'axios';
@@ -48,9 +48,9 @@ const CreatePoint = () => {
     0,
   ]);
 
-  const [sucessMessage, setSucessMessage] = useState(false);
-
   const history = useHistory();
+
+  const [status, setStatus] = useState<'success' | 'error' | ''>('');
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -148,16 +148,35 @@ const CreatePoint = () => {
       items,
     };
 
-    await api.post('points', data);
-
-    setSucessMessage(true);
-    setInterval(() => {
-      history.push('/');
-    }, 2000);
+    try {
+      await api.post('points', data);
+      setStatus('success');
+    } catch (err) {
+      setStatus('error');
+    } finally {
+      setTimeout(function () {
+        history.push('/');
+      }, 3000);
+    }
   }
 
   return (
     <div id="page-create-point">
+      {status === 'success' && (
+        <div id="overlay">
+          <FiCheckCircle size={64} color="#34CB79" />
+          <h1>Cadastro concluído! :D </h1>
+        </div>
+      )}
+
+      {status === 'error' && (
+        <div id="overlay">
+          <FiAlertCircle size={64} color="#ff471a" />
+          <h1>
+            Tivemos um Problema :( <br /> Tente novamente{' '}
+          </h1>
+        </div>
+      )}
       <header>
         <img src={logo} alt="Ecoleta" />
 
@@ -284,13 +303,6 @@ const CreatePoint = () => {
 
         <button type="submit">Cadastrar ponto de coleta</button>
       </form>
-
-      {sucessMessage ? (
-        <div className={`sucess-message ${sucessMessage ? 'show' : ''}`}>
-          <FiCheckCircle size={64} />
-          <h1>Cadastro concluído!</h1>
-        </div>
-      ) : null}
     </div>
   );
 };
