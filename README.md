@@ -37,6 +37,8 @@ Extras:
   - [Express](https://expressjs.com/pt-br/)
   - [KnexJS](http://knexjs.org/)
   - [SQLite3](https://www.sqlite.org/index.html)
+  - [Axios](https://github.com/axios/axios)
+  - [Leaflet](https://leafletjs.com/)
   
 - Estilos
 
