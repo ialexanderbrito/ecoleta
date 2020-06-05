@@ -87,6 +87,7 @@ export default StyleSheet.create({
   },
 
   selectedItem: {
+    backgroundColor: '#e1faec',
     borderColor: '#34CB79',
     borderWidth: 2,
   },

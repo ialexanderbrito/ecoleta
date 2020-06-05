@@ -52,7 +52,6 @@ export default StyleSheet.create({
     borderTopWidth: StyleSheet.hairlineWidth,
     borderColor: '#999',
     paddingVertical: 20,
-    paddingBottom: 20,
     paddingHorizontal: 32,
     flexDirection: 'row',
     justifyContent: 'space-between',
