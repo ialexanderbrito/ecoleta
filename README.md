@@ -41,6 +41,8 @@ Extras:
   - [Leaflet](https://leafletjs.com/)
   - [Expo Google Fonts](https://github.com/expo/google-fonts)
   - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
+  - [Multer](https://github.com/expressjs/multer)
+  - [Celebrate](https://github.com/arb/celebrate)
   
 - Estilos
 
