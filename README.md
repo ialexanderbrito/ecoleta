@@ -50,7 +50,7 @@ Extras:
 
 ### 💻 Demo Web
 
-[Em breve](#)
+[Visite o site](https://ecoleta-oficial.netlify.app/)
 
 ### 📱 App
 
