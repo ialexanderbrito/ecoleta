@@ -39,6 +39,8 @@ Extras:
   - [SQLite3](https://www.sqlite.org/index.html)
   - [Axios](https://github.com/axios/axios)
   - [Leaflet](https://leafletjs.com/)
+  - [Expo Google Fonts](https://github.com/expo/google-fonts)
+  - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
   
 - Estilos
 
