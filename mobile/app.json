@@ -1,28 +1,35 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Ecoleta",
+    "slug": "ecoleta",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f0f0f5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "com.ialexanderbrito.ecoleta",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAjUG6O7ceftuQNl6UPLlh9IGjncEVlTVM"
+        }
+      },
+      "package": "com.ialexanderbrito.ecoleta",
+      "versionCode": 1
     }
   }
 }
