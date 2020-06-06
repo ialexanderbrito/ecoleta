@@ -10,8 +10,10 @@
   <a href="https://github.com/ialexanderbrito/ecoleta/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/ecoleta.svg"></a>
 
-  <a href="https://github.com/ialexanderbrito/ecoleta/issues">
+  <a href="https://github.com/ialexanderbrito/be-the-hero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta.svg"></a>
+    
+   <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/ialexanderbrito/ecoleta?label=blue">
     
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet"></a>
@@ -41,6 +43,8 @@ Extras:
   - [Leaflet](https://leafletjs.com/)
   - [Expo Google Fonts](https://github.com/expo/google-fonts)
   - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
+  - [Multer](https://github.com/expressjs/multer)
+  - [Celebrate](https://github.com/arb/celebrate)
   
 - Estilos
 
@@ -50,11 +54,11 @@ Extras:
 
 ### 💻 Demo Web
 
-[Em breve](#)
+[Visite o site](https://ecoleta-oficial.netlify.app/)
 
 ### 📱 App
 
-[Download para Android](#)
+[Download para Android](https://github.com/ialexanderbrito/ecoleta/releases/tag/1.0.0)
 
 ### 💻 Projeto
 
