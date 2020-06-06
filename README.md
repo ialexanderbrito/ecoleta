@@ -10,8 +10,10 @@
   <a href="https://github.com/ialexanderbrito/ecoleta/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/ecoleta.svg"></a>
 
-  <a href="https://github.com/ialexanderbrito/ecoleta/issues">
+  <a href="https://github.com/ialexanderbrito/be-the-hero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta.svg"></a>
+    
+   <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/ialexanderbrito/ecoleta?label=blue">
     
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet"></a>
