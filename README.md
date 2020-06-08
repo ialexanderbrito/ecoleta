@@ -54,7 +54,7 @@ Extras:
 
 ### 💻 Demo Web
 
-[Visite o site](https://ecoleta-oficial.netlify.app/)
+[Visitar o site](https://ecoleta-oficial.netlify.app/)
 
 ### 📱 App
 
