@@ -3,21 +3,15 @@
  <b>Coleta de resíduos orgânicos e inorgânicos</b> ♻️🔋
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ialexanderbrito/ecoleta.svg">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ialexanderbrito/ecoleta.svg">
-  
-  <a href="https://github.com/ialexanderbrito/ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/ecoleta.svg"></a>
-
-  <a href="https://github.com/ialexanderbrito/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta.svg"></a>
-    
-   <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/ialexanderbrito/ecoleta?label=blue">
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ialexanderbrito/ecoleta?style=flat-square" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ialexanderbrito/ecoleta?style=flat-square" />
+  <img alt="" src="https://img.shields.io/github/repo-size/ialexanderbrito/ecoleta?style=flat-square" />
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta?style=flat-square" />
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/ecoleta?style=flat-square" />
     
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet"></a>
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet?style=flat-square"></a>
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet?style=flat-square">
 </p>
 
 <br>
@@ -150,27 +144,27 @@ Me acompanhe nas minhas redes sociais.
 <p align="center">
 
    <a href="https://github.com/ialexanderbrito" target="_blank" >
-    <img alt="Github" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github"></a>
+    <img alt="Github" src="https://img.shields.io/badge/-Github-lightgrey?style=flat-square&logo=Github&logoColor=white"></a> 
     
-   <a href="https://twitter.com/ialexanderbrito" target="_blank" > 
-     <img alt="Github" src="https://img.shields.io/badge/Twitter--%23F8952D?style=social&logo=twitter"></a> 
+ <a href="https://twitter.com/ialexanderbrito" target="_blank" > 
+     <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-9cf?style=flat-square&logo=Twitter&logoColor=white"></a> 
   
   <a href="https://instagram.com/ialexanderbrito" target="_blank" >
-    <img alt="Instagram" src="https://img.shields.io/badge/Instagram--%23F8952D?style=social&logo=instagram"></a> 
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?style=flat-square&logo=Instagram&logoColor=white"></a> 
   
   <a href="https://facebook.com/ialexanderbrito" target="_blank" >
-    <img alt="Facebook" src="https://img.shields.io/badge/Facebook--%23F8952D?style=social&logo=facebook"></a>
+    <img alt="Facebook" src="https://img.shields.io/badge/-Facebook-blue?style=flat-square&logo=Facebook&logoColor=white"></a> 
 
   <a href="https://www.linkedin.com/in/ialexanderbrito/" target="_blank" >
-    <img alt="Linkedin" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin"></a> 
+    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white"></a> 
   
   <a href="mailto:ialexanderbrito@gmail.com" target="_blank" >
-    <img alt="Email" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail"></a> 
+    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white"></a> 
   
   <a href="https://api.whatsapp.com/send?phone=5521979434402" target="_blank" >
-    <img alt="WhatsApp" src="https://img.shields.io/badge/Whatsapp--%23F8952D?style=social&logo=whatsapp"></a>
+    <img alt="WhatsApp" src="https://img.shields.io/badge/-WhatsApp-brightgreen?style=flat-square&logo=WhatsApp&logoColor=white"></a>
 </p>
 
 ---
 
-Feito com ❤️ by **Alexander** 🤙
+Feito com ❤️ by **Alexander** 🤙🏾
