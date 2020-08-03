@@ -120,6 +120,27 @@ $ npm start ou yarn start
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
+### 🧭 Rodando o Mobile
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/ialexanderbrito/ecoleta
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd ...
+
+# Vá para a pasta da aplicação Mobile
+$ cd mobile
+
+# Instale as dependências
+$ npm install ou yarn
+
+# Execute a aplicação
+$ expo start
+
+# A aplicação será aberta no navegador basta acessar via QR Code pelo celular
+```
+
 ### :recycle: Como contribuir
 
 - Fork esse repositório;
