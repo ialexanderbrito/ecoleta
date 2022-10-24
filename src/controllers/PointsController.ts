@@ -64,7 +64,7 @@ class PointsController {
     const trx = await knex.transaction();
 
     const point = {
-      image: request.file.filename,
+      image: request?.file?.filename,
       name,
       email,
       whatsapp,
@@ -92,7 +92,7 @@ class PointsController {
 
     await trx.commit();
 
-    return response.json({
+    return response?.json({
       id: point_id,
       ...point,
     });
